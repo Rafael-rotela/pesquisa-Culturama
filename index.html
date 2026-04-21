@@ -12,25 +12,52 @@
     </header>
     <section>
         <form action="" method="get">
-                <fieldset>
+            <!-- <fieldset>
                 <legend>Dados pessoais</legend>
                 <label for="Username">Nome</label>
                 <input type="text" name="Username" required>
-                
+                <br>    
                 <label for="birthDate">Ano de Nascimento</label>
                 <input type="datetime-local" name="birthDate" required>
-                
+                <br>
                 <label for="userEmail">Email</label>
                 <input type="email" name="userEmail" required>
-    
+                <br>
                 <label for="usertelefone">Telefone</label>
                 <input type="number" name="usertelefone" pattern="[0-9]{11}" placeholder="DDD + número">
-                
+                <br>
                 <label for="UserImage">Upload de Foto</label>
-                <input type="image" accept="image/*" name="UserImage">
+                <input type="image" accept="image/*" name="UserImage"> 
             
-                <button type="button">ENVIAR</button>
+            </fieldset>-->
+            
+            <fieldset>
+                <legend>Perfil</legend>
+
+                <input type="radio" name="userGender" value="Femino">
+                <label for="userGender">Femino</label>
+
+                <input type="radio" name="userGender" value="Masculino">
+                <label for="userGender">Masculino</label>
+
+                <input type="radio" name="userGender" value="Notinformat">
+                <label for="userGender">Prefiro não informar</label>
+
+                <br>
+                <label for="maritalStatus">Estado Civil:</label>
+                <select name="maritalStatus">
+                    <option value="notInformed">selecione...</option>
+                    <option value="casado">Casado</option>
+                    <option value="solteiro">Solteiro</option>
+                    <option value="divorciado">Divorciado</option>
+                    <option value="casado">União estável</option>
+                </select>
+
+
             </fieldset>
+            
+            
+            <button type="button">ENVIAR</button>
         </form>
     </section>
 </body>
