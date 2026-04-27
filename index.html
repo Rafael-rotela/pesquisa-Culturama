@@ -12,7 +12,7 @@
     </header>
     <section>
         <form action="" method="get">
-            <!-- <fieldset>
+            <fieldset>
                 <legend>Dados pessoais</legend>
                 <label for="Username">Nome</label>
                 <input type="text" name="Username" required>
@@ -29,7 +29,7 @@
                 <label for="UserImage">Upload de Foto</label>
                 <input type="image" accept="image/*" name="UserImage"> 
             
-            </fieldset>-->
+            </fieldset>
             
             <fieldset>
                 <legend>Perfil</legend>
@@ -52,7 +52,6 @@
                     <option value="divorciado">Divorciado</option>
                     <option value="casado">União estável</option>
                 </select>
-                <br>
                 <label for="maritalStatus">Estado Civil:</label>
                 <select name="userStates" required>
                    <option value="acre">Acre</option>
@@ -83,6 +82,21 @@
             </fieldset>
             
             
+            <fieldset>
+                <legend>Hábitos</legend>
+                <p>Redes Sóciais</p>
+                <input type="checkbox" name="social" value="instagram">
+                <label for="social"> Instragram</label>
+                <br>
+                <input type="checkbox" name="social" value="facebook">
+                <label for="social">facebook</label>
+                <br>
+                <input type="checkbox" name="social" value="linkdin">
+                <label for="social">Linkdin</label>
+                <br>
+                <input type="checkbox" name="social" value="X">
+                <label for="social">X</label>
+            </fieldset>
             <button type="button">ENVIAR</button>
         </form>
     </section>
